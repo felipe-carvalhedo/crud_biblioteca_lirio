@@ -110,7 +110,7 @@ def editar_livro(id):
             con.close()
 
 #Mostrar livros cadastrados.
-def mostrar_todos_livros(): #Todos os livros
+def mostrar_todos_livros(): #Mostra todos os livros cadastrados
     try: 
         con = sqlite3.connect('livros.db')
         cursor = con.cursor()
